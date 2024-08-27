@@ -6,4 +6,4 @@ jobs:
     env:
       TESTVAL: ${{ vars.TEST_VAL }}
     steps:
-      - run: echo "{{ TESTVAL }}"
+      - run: echo "${TESTVAL}"
